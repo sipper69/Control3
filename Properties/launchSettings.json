@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Control3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Control3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

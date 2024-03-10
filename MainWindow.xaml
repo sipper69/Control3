@@ -1,0 +1,22 @@
+<Window x:Class="Control3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Control3">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,0,0,10" VerticalAlignment="Bottom" Name="message"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,5">
+            <ComboBox x:Name="videoSource" DisplayMemberPath="Name" Width="320" SelectionChanged="sourceSelected"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="No Video" Margin="0,0,10,0" Click="NoVideo_Click" Width="100"/>
+                <Button Content="Windowed" Margin="0,0,10,0" Click="Video_Click" Tag="False" Width="100"/>
+                <Button Content="FullScreen" Margin="0,0,0,0" Click="Video_Click" Tag="True" Width="100"/>
+            </StackPanel>
+            <TextBlock Text="Press Middle Mouse Button (Scroll Wheel) to exit remote session" HorizontalAlignment="Center" Margin="0,5,0,5" FontSize="11"/>
+        </StackPanel>
+    </Grid>
+</Window>
