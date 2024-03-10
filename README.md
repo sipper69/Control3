@@ -9,11 +9,17 @@ With Control3 you can use any MS2130 based video capture cable, they are blazing
 Prefab cables of this combination are available. See pictures below. 
 
 I'm not a professional dev, but gave it a shot. Built a C# .NET 6 application to support my cables for remote control on my devices.
+
 Used the lastest Windows App SDK (WinUI 3) they support MediaPlayerElement with GUI support based on WinRT API's.
+
 Catch the keyboard/mouse events with the the MouseKeyHook library (https://github.com/gmamaladze/globalmousekeyhook)
+
 Catch the low-level mouse movements with the SharpDX.DirectInput library (https://github.com/sharpdx/SharpDX)
+
 Used the CH9329 Class from SmallCodeNote to send the mouse/keyboard data to the remote device (https://github.com/SmallCodeNote/CH9329-109KeyClass)
+
 All under MIT license, many thanks to these contributors, of course my contribution is open source as well.
+
 
 This is only a preview of what is possible, the tool is very usable for me, but so many enhancements to think of.
 I do not deliver support, but like to discuss around it on Reddit (https://www.reddit.com/r/homelab/comments/1b6io6v/laptop_as_kvm/).
