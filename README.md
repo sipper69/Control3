@@ -23,9 +23,9 @@ All under MIT license, many thanks to these contributors, of course my contribut
 
 This is only a preview of what is possible, the tool is very usable for me, but so many enhancements to think of.
 I do not deliver support, but like to discuss around it on Reddit (https://www.reddit.com/r/homelab/comments/1b6io6v/laptop_as_kvm/).
-This tool only support US keyboards btw. It runs only on Windows 10/11 build 1809 and higher.
+This tool only support US keyboards btw. It runs on Windows 10/11 build 1809 and higher.
 
-I added an unsigned x64 binary, packaged in an installer (SetupControl3.exe) if you want to play around directly. It will only recognize the product type of the cable I use (CH340), but you can amend the PID/VID in the code to support your cable. 
+I added an unsigned x64 binary, as packaged installer (SetupControl3.exe) if you want to play around directly. It will only recognize the product type of the cable I use (CH340), but you can amend the PID/VID in the code to support your cable. 
 Don't forget to install a CH340 driver on your host PC if needed (check if the COM port is there under your devices).
 
 I hope it is of use to you!
