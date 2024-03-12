@@ -8,7 +8,7 @@ With Control3 you can use any MS2130 based video capture cable, they are blazing
 For remote Mouse/Keyboard the CH9329 USB module in combination with a CH340 USB Serial module will do the job.
 Prefab cables of this combination are available (eBay CH9329/CH340 KVM USB Cable).
 
-I'm not a professional dev, but gave it a shot. Built a C# .NET 6 application to support my cables for remote control on my devices.
+I'm not a professional dev, but gave it a shot. Built a C# .NET 6 application to support the cables for remote control on my devices.
 
 Used the lastest Windows App SDK (WinUI 3) they support MediaPlayerElement with GUI support based on WinRT API's.
 
