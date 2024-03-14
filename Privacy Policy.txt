@@ -1,0 +1,32 @@
+Privacy Policy for Maintenance Tool Control3
+--------------------------------------------
+
+This Privacy Policy describes how the Maintenance Tool Control3 ("the Application") handles user data. The Application is a tool designed to configure your local devices via a direct USB connection.
+
+1. Collection of Personal Information
+-------------------------------------
+The Application does not collect, store, or upload any personal information from users. It operates solely as a maintenance tool and does not require any user account creation or personal data input.
+
+2. Data Storage
+---------------
+No user data is stored by the Application. The tool operates locally on the user's device and does not retain any information beyond the duration of a session.
+
+3. Data Sharing
+---------------
+The Application does not collect or share any data with third parties. It operates independently between the user's local device and the device being configured, with no further external data transmission.
+
+4. Data Usage
+-------------
+As no personal data is collected, stored, or shared by the Application, there are no specific data usage practices.
+
+5. User Rights
+--------------
+Since no personal information is collected, there are no data-related rights for users to consider. The Application does not necessitate user registration or involve interaction with personal information.
+
+6. Cookies and Tracking
+-----------------------
+The Application does not utilize cookies or tracking technologies. It operates as a standalone tool without any web or external interactions.
+
+7. Updates to Privacy Policy
+----------------------------
+Any updates to this Privacy Policy will be made available on this Application's GitHub page at https://github.com/sipper69/Control3.
