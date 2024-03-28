@@ -30,6 +30,8 @@ Don't forget to install a CH340 driver on your host PC if needed (check if the C
 
 I hope it is of use to you!
 
+https://youtu.be/ZCbLUDXHe6E
+
 <img width="960" alt="Control3" src="https://github.com/sipper69/Control3/assets/115348579/259b56ab-6749-4c0b-807a-88246b2f0f9e">
 <img width="960" alt="Cables3" src="https://github.com/sipper69/Control3/assets/115348579/73345112-29eb-483e-a5fb-38a8e8ed7c19">
 
