@@ -1,5 +1,7 @@
 **Control3 - Laptop as KVM**
 
+Update: check Microsoft App store for recent updates https://apps.microsoft.com/detail/9pmw2phrdf46
+
 Use your laptop as Screen/Mouse/Keyboard to manage your external device like a RPi, (mini)PC, PlayStation, nVidia Shield, etc.
 
 I do not want that extra keyboard mouse and monitor when I do a quick configuration. There are tools, but I want direct BIOS access and no driver install on the remote device. There are KVM Console Crash Cart solutions, but you need a good budget. There are low budget products which can be used, but there was no tool to use them for this purpose.
@@ -31,9 +33,6 @@ Don't forget to install a CH340 driver on your host PC if needed (check if the C
 I hope it is of use to you!
 
 https://youtu.be/ZCbLUDXHe6E
-
-edit: put a new release on the Microsoft App store with absolute mouse positioning.
-https://apps.microsoft.com/detail/9pmw2phrdf46
 
 <img width="960" alt="Control3" src="https://github.com/sipper69/Control3/assets/115348579/259b56ab-6749-4c0b-807a-88246b2f0f9e">
 <img width="960" alt="Cables3" src="https://github.com/sipper69/Control3/assets/115348579/73345112-29eb-483e-a5fb-38a8e8ed7c19">
