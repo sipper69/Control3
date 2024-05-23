@@ -36,7 +36,12 @@ namespace Control3
 
             await mediaCapture.InitializeAsync(settings);
 
-            var vidStream = mediaCapture.FrameSources.FirstOrDefault().Value; 
+            // var vidStream = mediaCapture.FrameSources.FirstOrDefault().Value; 
+            // Update: select Video Stream to prevent accidental usage of the audio stream
+            var vidStream = mediaCapture.FrameSources
+                                        .FirstOrDefault(source => source.Value.Info.MediaStreamType == MediaStreamType.VideoPreview ||
+                                                                  source.Value.Info.MediaStreamType == MediaStreamType.VideoRecord).Value;
+            
             captureElement.Source = Windows.Media.Core.MediaSource.CreateFromMediaFrameSource(vidStream);
 
             var desiredFormat = vidStream.SupportedFormats.FirstOrDefault(format => format.Subtype == "MJPG" && format.VideoFormat.Width == 1920 && format.FrameRate.Numerator == 30);
