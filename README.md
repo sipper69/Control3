@@ -1,6 +1,7 @@
 **Control3 - Laptop as KVM**
 
 Update: check Microsoft App store for recent updates https://apps.microsoft.com/detail/9pmw2phrdf46
+https://youtu.be/ZCbLUDXHe6E
 
 Use your laptop as Screen/Mouse/Keyboard to manage your external device like a RPi, (mini)PC, PlayStation, nVidia Shield, etc.
 
@@ -31,8 +32,6 @@ I added an unsigned x64 binary, as packaged installer (SetupControl3.exe) if you
 Don't forget to install a CH340 driver on your host PC if needed (check if the COM port is there under your devices).
 
 I hope it is of use to you!
-
-https://youtu.be/ZCbLUDXHe6E
 
 <img width="960" alt="Control3" src="https://github.com/sipper69/Control3/assets/115348579/259b56ab-6749-4c0b-807a-88246b2f0f9e">
 <img width="960" alt="Cables3" src="https://github.com/sipper69/Control3/assets/115348579/73345112-29eb-483e-a5fb-38a8e8ed7c19">
