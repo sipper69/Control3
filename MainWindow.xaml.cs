@@ -116,14 +116,14 @@ namespace Control3
         {
             if (!App.Flag.isRemote) { return; }
 
-            if (e.KeyCode == System.Windows.Forms.Keys.RWin) { App.Flag.Decoration += 128; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RMenu) { App.Flag.Decoration += 64; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RShiftKey) { App.Flag.Decoration += 32; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RControlKey) { App.Flag.Decoration += 16; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LWin) { App.Flag.Decoration += 8; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LMenu) { App.Flag.Decoration += 4; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LShiftKey) { App.Flag.Decoration += 2; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LControlKey) { App.Flag.Decoration += 1; }
+			if (e.KeyCode == System.Windows.Forms.Keys.RWin) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 7)); } 
+            else if (e.KeyCode == System.Windows.Forms.Keys.RMenu) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 6)); } 
+            else if (e.KeyCode == System.Windows.Forms.Keys.RShiftKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 5)); } 
+            else if (e.KeyCode == System.Windows.Forms.Keys.RControlKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 4)); } 
+            else if (e.KeyCode == System.Windows.Forms.Keys.LWin) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 3)); }  
+            else if (e.KeyCode == System.Windows.Forms.Keys.LMenu) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 2)); }  
+            else if (e.KeyCode == System.Windows.Forms.Keys.LShiftKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 1)); ; }  
+            else if (e.KeyCode == System.Windows.Forms.Keys.LControlKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration | (1 << 0)); } 
             try
             {
                 byte value = Flags.KeyMap[(byte)e.KeyValue];
@@ -136,14 +136,15 @@ namespace Control3
         {
             if (!App.Flag.isRemote) { return; }
 
-            if (e.KeyCode == System.Windows.Forms.Keys.RWin) { App.Flag.Decoration -= 128; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RMenu) { App.Flag.Decoration -= 64; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RShiftKey) { App.Flag.Decoration -= 32; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.RControlKey) { App.Flag.Decoration -= 16; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LWin) { App.Flag.Decoration -= 8; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LMenu) { App.Flag.Decoration -= 4; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LShiftKey) { App.Flag.Decoration -= 2; }
-            else if (e.KeyCode == System.Windows.Forms.Keys.LControlKey) { App.Flag.Decoration -= 1; }
+			if (e.KeyCode == System.Windows.Forms.Keys.RWin) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 7)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.RMenu) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 6)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.RShiftKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 5)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.RControlKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 4)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.LWin) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 3)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.LMenu) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 2)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.LShiftKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 1)); }
+            else if (e.KeyCode == System.Windows.Forms.Keys.LControlKey) { App.Flag.Decoration = (byte)(App.Flag.Decoration & ~(1 << 0)); }
+            
             e.Handled = true;
         }
         private void GlobalHook_MouseWheel(object sender, System.Windows.Forms.MouseEventArgs e)
