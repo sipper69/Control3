@@ -21,6 +21,9 @@ Catch the low-level mouse movements with the SharpDX.DirectInput library (https:
 
 Used the CH9329 Class from SmallCodeNote to send the mouse/keyboard data to the remote device (https://github.com/SmallCodeNote/CH9329-109KeyClass)
 
+CH9329 documentation translated to English. 
+https://github.com/user-attachments/files/15741885/CH9329-CN.translated.PDF
+
 All under MIT license, many thanks to these contributors, of course my contribution is open source as well.
 
 
