@@ -27,7 +27,7 @@ Used the CH9329 Class from SmallCodeNote to send the mouse/keyboard data to the 
 CH9329 documentation translated to English. 
 https://github.com/user-attachments/files/15741885/CH9329-CN.translated.PDF
 
-Some doc I created for AZERTY Mapping:
+Some doc I created for AZERTY/QWERTZ Mapping:
 https://github.com/sipper69/Control3/blob/master/keycodes.xlsx
 
 All under MIT license, many thanks to these contributors, of course my contribution is open source as well.
