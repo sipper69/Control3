@@ -39,6 +39,7 @@ This tool only support US keyboards btw. It runs on Windows 10/11 build 1809 and
 
 I added an unsigned x64 binary, as packaged installer (SetupControl3.exe) if you want to play around directly. It will only recognize the product type of the cable I use (CH340), but you can amend the PID/VID in the code to support your cable. 
 Don't forget to install a CH340 driver on your host PC if needed (check if the COM port is there under your devices).
+https://www.wch-ic.com/downloads/CH9340EVT_ZIP.html
 
 I hope it is of use to you!
 
