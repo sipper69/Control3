@@ -1,6 +1,8 @@
-**Control3 - Laptop as KVM**
+# Control3 - Laptop as KVM
 
-Update: check Microsoft App store for recent updates https://apps.microsoft.com/detail/9pmw2phrdf46
+<sup>**Note:** This repository is not maintained, it is for inspirational purposes only.
+Most issues and discussion here are referring to the Microsoft App store version (https://apps.microsoft.com/detail/9pmw2phrdf46) which is a separate closed development.
+My apologies for the confusion.</sup>
 
 Demo: https://youtu.be/ZCbLUDXHe6E
 
